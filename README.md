@@ -3,6 +3,10 @@
 ## Overview
 This project is a simple Python script that utilizes the Google Translate API, specifically its Neural Machine Translation (NMT) capabilities, to translate English text into Hinglish. Hinglish is a blend of Hindi and English, commonly used in India, where English and Hindi words are often mixed together.
 
+#### Types of codes 
+1) English to hinglis
+2) English to hinglish with all hindi
+
 ## Features
  - Translates English text into Hinglish.
  - Utilizes Google's powerful Neural Machine Translation (NMT) model for high-quality translations.
