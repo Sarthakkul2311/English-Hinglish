@@ -15,7 +15,7 @@ googletrans library (version 4.0.0-rc1 or later)
 
 ## Getting Started
 ### 1) Clone this repository to your local machine:
-#### git clone https://github.com/Sarthakkul2311/.git
+#### git clone https://github.com/Sarthakkul2311/English-Hinglish.git
 
 ### 2) Install the required dependencies using pip:
 #### pip install googletrans==4.0.0-rc1
