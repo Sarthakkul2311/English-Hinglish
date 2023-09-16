@@ -1,7 +1,7 @@
 ## Note:- This code translates given English statements into hinglish statements with all the words in hindi.
 
 ### Algorithm used:-
-
+This code uses Google Translate API for translation. The algorithm used for translation within the Google Translate API is a neural machine translation (NMT) algorithm. Neural machine translation is a type of machine translation that relies on artificial neural networks to learn and generate translations. It has become the dominant approach for machine translation in recent years because it can capture complex linguistic patterns and produce more accurate translations compared to older statistical machine translation methods.
 
 ### 1) Install Python:
 If you don't have Python installed on your local system, download and install it from the official Python website: https://www.python.org/downloads/
