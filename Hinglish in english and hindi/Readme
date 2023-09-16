@@ -12,10 +12,10 @@ Open your terminal or command prompt and run the following command:-
   "pip install googletrans==4.0.0-rc1"
 This will install the googletrans library version specified in the command.
 
-Create a Python script:
+3) Create a Python script:
 Copy the code you provided and paste it into a Python script file (e.g., translate.py).
 
-Run the Python script:
+4) Run the Python script:
 Open a terminal or command prompt, navigate to the directory where your Python script is located, and then run the script using the following command:
   "python translate.py"
 Make sure you have an active internet connection because the code relies on the Google Translate API to perform translations.
