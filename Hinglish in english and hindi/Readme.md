@@ -1,13 +1,13 @@
 ## Note:- This code translates English sentences into Hinglish sentences which has English + Hindi words.
 
 ### Sample:-
-English Statement: "Definitely share your feedback in the comment section." 
+English Statement: "Definitely share your feedback in the comment section." <br>
 Expected Hinglish Translation: "Definitely share your feedback in the comment अनुभाग।"
 
-English Statement: "So even if it's a big video, I will clearly mention all the products."
+English Statement: "So even if it's a big video, I will clearly mention all the products." <br>
 Expected Hinglish Translation: "So even if इसका a big वीडियो, I will clearly mention all the उत्पाद।"
 
-English Statement: "I was waiting for my bag."
+English Statement: "I was waiting for my bag." <br>
 Expected Hinglish Translation: "I was waiting for my थैला।"
 
 ### Algorithm used:-
