@@ -7,6 +7,26 @@ This project is a simple Python script that utilizes the Google Translate API, s
 1) Hinglish in English and hindi: It translates english sentences into hinglish which contains English and hindi both.
 2) English to hinglish with all hindi: It translates english sentences into hinglish which contains hindi only.
 
+### Sample of Hinglish in english and hindi:-
+English Statement: "Definitely share your feedback in the comment section."
+Expected Hinglish Translation: "Definitely share your feedback in the comment अनुभाग।"
+
+English Statement: "So even if it's a big video, I will clearly mention all the products."
+Expected Hinglish Translation: "So even if इसका a big वीडियो, I will clearly mention all the उत्पाद।"
+
+English Statement: "I was waiting for my bag."
+Expected Hinglish Translation: "I was waiting for my थैला।"
+
+### Sample of hinglish all in hindi
+English Statement: "Definitely share your feedback in the comment section."
+Expected Hinglish Translation: "निश्चित रूप से टिप्पणी अनुभाग में अपनी प्रतिक्रिया साझा करें।"
+
+English Statement: "So even if it's a big video, I will clearly mention all the products."
+Expected Hinglish Translation: "तो भले ही यह एक बड़ा वीडियो है, मैं स्पष्ट रूप से सभी उत्पादों का उल्लेख करूंगा।"        
+
+English Statement: "I was waiting for my bag."
+Expected Hinglish Translation: "मैं अपने बैग का इंतजार कर रहा था।"
+
 ## Features
  - Translates English text into Hinglish.
  - Utilizes Google's powerful Neural Machine Translation (NMT) model for high-quality translations.
