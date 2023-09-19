@@ -4,27 +4,27 @@
 This project is a simple Python script that utilizes the Google Translate API, specifically its Neural Machine Translation (NMT) capabilities, to translate English text into Hinglish. Hinglish is a blend of Hindi and English, commonly used in India, where English and Hindi words are often mixed together.
 
 #### Types of codes 
-1) Hinglish in English and hindi: It translates english sentences into hinglish which contains English and hindi both.
+1) Hinglish in English and hindi: It translates english sentences into hinglish which contains English and hindi both. <br>
 2) English to hinglish with all hindi: It translates english sentences into hinglish which contains hindi only.
 
 ### Sample of Hinglish in english and hindi:-
-Statement: Definitely share your feedback in the comment section.
+Statement: Definitely share your feedback in the comment section. <br>
 Hinglish Translation: "निश्चित रूप से comment section में अपनी feedback साझा करें।"
 
-Statement: So even if it's a big video, I will clearly mention all the products.
+Statement: So even if it's a big video, I will clearly mention all the products. <br>
 Hinglish Translation: "तो भले ही यह एक बड़ा video है, मैं स्पष्ट रूप से सभी products का mention करूंगा।"
 
-Statement: I was waiting for my bag.
+Statement: I was waiting for my bag. <br>
 Hinglish Translation: "मैं अपने bag का wait कर रहा था।"
 
 ### Sample of hinglish all in hindi
-English Statement: "Definitely share your feedback in the comment section."
+English Statement: "Definitely share your feedback in the comment section." <br>
 Expected Hinglish Translation: "निश्चित रूप से टिप्पणी अनुभाग में अपनी प्रतिक्रिया साझा करें।"
 
-English Statement: "So even if it's a big video, I will clearly mention all the products."
+English Statement: "So even if it's a big video, I will clearly mention all the products." <br>
 Expected Hinglish Translation: "तो भले ही यह एक बड़ा वीडियो है, मैं स्पष्ट रूप से सभी उत्पादों का उल्लेख करूंगा।"        
 
-English Statement: "I was waiting for my bag."
+English Statement: "I was waiting for my bag." <br>
 Expected Hinglish Translation: "मैं अपने बैग का इंतजार कर रहा था।"
 
 ## Features
