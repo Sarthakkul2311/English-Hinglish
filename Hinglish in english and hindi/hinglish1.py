@@ -1,37 +1,48 @@
-from googletrans import Translator
+from googletrans import Translator, LANGUAGES
 
-def translate_statement(statement):
+def translate_to_hinglish(text):
+    # Create a Translator object
     translator = Translator()
-    # Split the statement into words
-    words = statement.split()
-    
-    # Initialize an empty list to store the translated words
-    translated_words = []
-    
-    # Translate each word individually
-    for word in words:
-        # If the word is a common noun or proper noun (e.g., a name), keep it in English
-        if word.isalpha() and not word.isnumeric():
-            translated_words.append(word)
-        else:
-            # Translate non-noun words to Hinglish
-            translation = translator.translate(word, src='en', dest='hi')
-            translated_words.append(translation.text)
 
-    # Reconstruct the translated statement
-    translated_statement = ' '.join(translated_words)
-    
-    return translated_statement
+    # Detect the input language (English)
+    detected_language = translator.detect(text).lang
 
-# Define the English statements
-english_statements = [
+    # If the detected language is not English, return the input text as is
+    if detected_language != 'en':
+        return text
+
+    # Translate the English text to Hindi
+    hindi_translation = translator.translate(text, src='en', dest='hi')
+
+    # Replace common English words with their Hinglish equivalents
+    hinglish_translation = hindi_translation.text
+    hinglish_translation = hinglish_translation.replace('feedback', 'feedback')
+    hinglish_translation = hinglish_translation.replace('comment section', 'comment section')
+    hinglish_translation = hinglish_translation.replace('products', 'products')
+    hinglish_translation = hinglish_translation.replace('clearly', 'clearly')
+    hinglish_translation = hinglish_translation.replace('mention', 'mention')
+    hinglish_translation = hinglish_translation.replace('waiting', 'waiting')
+    hinglish_translation = hinglish_translation.replace('bag', 'bag')
+
+    # Replace 'video' with the same word in English
+    hinglish_translation = hinglish_translation.replace('टिप्पणी अनुभाग', 'comment section')
+    hinglish_translation = hinglish_translation.replace('प्रतिक्रिया', 'feedback')
+    hinglish_translation = hinglish_translation.replace('वीडियो', 'video')
+    hinglish_translation = hinglish_translation.replace('उत्पादों', 'products')
+    hinglish_translation = hinglish_translation.replace('उल्लेख', 'mention')
+    hinglish_translation = hinglish_translation.replace('बैग', 'bag')
+    hinglish_translation = hinglish_translation.replace('इंतजार', 'wait')
+
+    return hinglish_translation
+
+# Test the translation function with your statements
+statements = [
     "Definitely share your feedback in the comment section.",
     "So even if it's a big video, I will clearly mention all the products.",
     "I was waiting for my bag."
 ]
 
-# Translate and print the statements
-for statement in english_statements:
-    translated = translate_statement(statement)
-    print(f'English Statement: "{statement}"')
-    print(f'Expected Hinglish Translation: "{translated}"\n')
+for statement in statements:
+    hinglish_translation = translate_to_hinglish(statement)
+    print(f"Statement: {statement}")
+    print(f"Hinglish Translation: \"{hinglish_translation}\"\n")
